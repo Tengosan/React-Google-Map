@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './Map.css';
 import { Helmet } from 'react-helmet';
+import * as data from '../.././test_buildings.json'
+
+console.log(data);
 
 class Map extends Component {
   constructor(props) {
