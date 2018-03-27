@@ -3,6 +3,17 @@ import './Map.css';
 import { Helmet } from 'react-helmet';
 
 class Map extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      error: null,
+      isLoaded: false,
+      items: []
+    };
+  }
+  componentDidMount() {
+
+  }
   render() {
     return (
       <Helmet>
