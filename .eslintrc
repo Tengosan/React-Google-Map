@@ -1,0 +1,7 @@
+{
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "rules": {
+    "linebreak-style": "off",
+    "react/jsx-filename-extension": "off"
+  }
+}
