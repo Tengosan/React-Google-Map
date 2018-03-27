@@ -7,7 +7,6 @@ class Map extends Component {
     return (
       <Helmet>
         {/*<div id="map">*/}
-        {/*<h3>My Google Maps Demo</h3>*/}
         {/*</div>*/}
         {/*<script>*/}
         {/*function initMap() {*/}
@@ -29,16 +28,6 @@ class Map extends Component {
       </Helmet>
     );
   }
-}
-
-{
-  /*<script async defer*/
-}
-{
-  /*src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAijvPt5C6zYLlkD5HjGWbBjKQkvMRHlw&callback=initMap">*/
-}
-{
-  /*</script>*/
 }
 
 export default Map;
