@@ -1,19 +1,23 @@
 import Types from './types';
 
 const addFlag = () => ({
-  type: Types.ADD_FLAG
+  type: Types.ADD_FLAG,
+  data:{}
 });
 
 const deleteFlag = () => ({
-  type: Types.DELETE_FLAG
+  type: Types.DELETE_FLAG,
+  data:{}
 });
 
 const addPoint = () => ({
-  type: Types.ADD_POINT
+  type: Types.ADD_POINT,
+  data:{}
 });
 
 const deletePoint = () => ({
-  type: Types.DELETE_POINT
+  type: Types.DELETE_POINT,
+  data:{}
 });
 
 
