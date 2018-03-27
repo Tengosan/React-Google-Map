@@ -40,7 +40,6 @@ class Map extends Component {
         {/*// Add a marker clusterer to manage the markers.*/}
         {/*var markerCluster = new MarkerClusterer(map, markers,*/}
         {/*{imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});*/}
-        {/*}*/}
         {/*var locations = [*/}
         {/*{lat: -31.563910, lng: 147.154312},*/}
         {/*{lat: -33.718234, lng: 150.363181},*/}
