@@ -3,7 +3,12 @@ import './Map.css';
 import { Helmet } from 'react-helmet';
 import * as data from '../.././test_buildings.json';
 
-console.log(data);
+const lat = data.data.map(lat => (lat.latitude));
+const lon = data.data.map(lon => (lon.longitude));
+
+const points = [...lat,...lon];
+
+console.log(points);
 
 class Map extends Component {
   constructor(props) {
