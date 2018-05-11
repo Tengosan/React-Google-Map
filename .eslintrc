@@ -1,7 +1,7 @@
 {
-  "extends": ["airbnb", "prettier", "prettier/react"],
+  "extends": ["eslint:recommended","airbnb", "prettier", "prettier/react"],
   "rules": {
     "linebreak-style": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
   }
 }
