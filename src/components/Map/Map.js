@@ -39,12 +39,14 @@ class Map extends Component{
   render(){
     return(
       <div>
-        <div id="map"></div>
+        <div id="map">
+
+        </div>
       </div>
     )
   }
 }
 
 export default scriptLoader(
-  ["https://maps.googleapis.com/maps/api/js?key= AIzaSyAAijvPt5C6zYLlkD5HjGWbBjKQkvMRHlw&callback=initMap"]
+  ["https://maps.googleapis.com/maps/api/js?key=AIzaSyCe1H6lRgtxI3ZLMDV0IUgGsjAJWg1ZOtA&callback=initMap"]
 )(Map)
